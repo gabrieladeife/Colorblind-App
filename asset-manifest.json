@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gabrieladeife/Colorblind-App/static/css/main.b1616dd9.css",
+    "main.js": "/gabrieladeife/Colorblind-App/static/js/main.b8f33049.js",
+    "static/js/787.b1de7848.chunk.js": "/gabrieladeife/Colorblind-App/static/js/787.b1de7848.chunk.js",
+    "static/media/4680px-RGB_color_model.svg.png": "/gabrieladeife/Colorblind-App/static/media/4680px-RGB_color_model.svg.9a8d8433965a83d7f6f9.png",
+    "static/media/rgblind.svg": "/gabrieladeife/Colorblind-App/static/media/rgblind.e236b9a7855dea4795aa.svg",
+    "index.html": "/gabrieladeife/Colorblind-App/index.html",
+    "main.b1616dd9.css.map": "/gabrieladeife/Colorblind-App/static/css/main.b1616dd9.css.map",
+    "main.b8f33049.js.map": "/gabrieladeife/Colorblind-App/static/js/main.b8f33049.js.map",
+    "787.b1de7848.chunk.js.map": "/gabrieladeife/Colorblind-App/static/js/787.b1de7848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1616dd9.css",
+    "static/js/main.b8f33049.js"
+  ]
+}
