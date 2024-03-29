@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+
+/* Framing and design of webapp, changing background color.*/
+
+body{
+  width:100vw;
+  height:100vh;
+  padding-top: 2.5vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: rgba(255, 255, 255, 0.767);
+  overflow:hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner{
+  background:#ffaabb;
+  margin-left:0;
+  display:flex;
+}
+.banner-content{
+  padding:20px;
+  margin-left:0;
+  margin-right:0;
+  display:flex;
+  align-self:center;
+  text-align:center;
+}
+.header-font{
+  font-size:75px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+  display:block;
+  margin-top: 30px;
+  margin-bottom:2px;
+}
+.sub-header{
+  font-size:large;
+  font-family:'Courier New', Courier, monospace;
+  display:flex;
+  margin-top:2px;
+  margin-bottom:2px;
+  text-align:center;
+  float:left;
+  margin-left:60px;
+}
+.bg{
+  position:relative;
+  background-color: #ffaabb;
+  margin-bottom:50px;
+  padding-bottom:20px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:10px;
+  box-shadow: 5px 10px #635f5f;
+}
+.bg::before{
+  content:'';
+  display:flex;
+  position:absolute;
+  left:0;
+  background-image:url("4680px-RGB_color_model.svg.png");
+  opacity:0.2;
+  background-size:10% 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgtext{
+  margin:3rem;
+  position:absolute;
+  top:250px;
+  letter-spacing:60px;
+  color:rgba(184, 175, 175, 0.527);
+  font-size: 10vw;
+  justify-content:center;
+  justify-self:center;
+  text-wrap: nowrap;
+  z-index: -1;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bgtext2{
+  margin:3rem;
+  position:absolute;
+  top:50px;
+  padding-top:1200px;
+  letter-spacing:30px;
+  color:rgba(184, 175, 175, 0.527);
+  font-size: 1vw;
+  justify-content:center;
+  justify-self:center;
+  text-wrap: nowrap;
+  -webkit-transform: rotate(90deg);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgtext3{
+  margin:3rem;
+  position:absolute;
+  top: 60px;
+  padding-bottom:1100px;
+  padding-top:50px;
+  letter-spacing:20px;
+  color:rgba(184, 175, 175, 0.527);
+  font-size: 1vw;
+  justify-content:center;
+  justify-self:center;
+  text-wrap: nowrap;
+  -webkit-transform: rotate(90deg);
 }
