@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Colorblind-App/static/css/main.e1d5ab87.css",
-    "main.js": "/Colorblind-App/static/js/main.75636aba.js",
+    "main.js": "/Colorblind-App/static/js/main.5a83440b.js",
     "static/js/787.b1de7848.chunk.js": "/Colorblind-App/static/js/787.b1de7848.chunk.js",
     "static/media/4680px-RGB_color_model.svg.png": "/Colorblind-App/static/media/4680px-RGB_color_model.svg.9a8d8433965a83d7f6f9.png",
     "static/media/rgblind.svg": "/Colorblind-App/static/media/rgblind.e236b9a7855dea4795aa.svg",
     "index.html": "/Colorblind-App/index.html",
     "main.e1d5ab87.css.map": "/Colorblind-App/static/css/main.e1d5ab87.css.map",
-    "main.75636aba.js.map": "/Colorblind-App/static/js/main.75636aba.js.map",
+    "main.5a83440b.js.map": "/Colorblind-App/static/js/main.5a83440b.js.map",
     "787.b1de7848.chunk.js.map": "/Colorblind-App/static/js/787.b1de7848.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1d5ab87.css",
-    "static/js/main.75636aba.js"
+    "static/js/main.5a83440b.js"
   ]
 }
